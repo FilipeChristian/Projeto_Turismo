@@ -1,149 +1,236 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
-    <link rel="stylesheet" href="estilos/stylo.css">
-    <link rel="stylesheet" href="estilos/mediaQueries.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelPro Turismo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos/stylo.css">
+  <link rel="stylesheet" href="estilos/mediaQueries.css">
 </head>
+
 <body>
-    <header>
-        <p>TravelPro Turismo</p>
+  <header class="topbar">
+    <div class="container">
+      <a class="logo" href="#">TravelPro Turismo</a>
+      <nav class="nave">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#frota">Frota</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-        <nav class="nave">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Frota</a></li>
-                <li><a href="#">Depoimento</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Sua Jornada Começa Conosco</h1>
+          <p>Serviços profissionais de turismo com mais de 15 anos de experiência. Descubra destinos incríveis com nossa frota premium e orientação especializada.</p>
 
-    <section>
-        <article>
-            <h3>Sua Aventura Começa Conosco</h3>
-            <p>Serviços profissionais de turismo com mais de 15 anos de experiência. Descubra destinos incríveis com nossa frota premium e orientação especializada.</p>
-            
+          <div class="hero-cta">
+            <a class="btn primary" href="#contato">Entre em Contato</a>
+            <a class="btn ghost" href="#frota">Conheça Nossa Frota</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=b0e7a7ad1b8d4f7e3b6f3c5f0d9f0a8c" alt="Ônibus premium na estrada">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="about container">
+      <div class="about-grid">
+        <div class="about-image"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=7b2b9ee1f2f1e7b6a1a3a6e1b1c2d3f4" alt="Recepção de hotel"></div>
+        <div class="about-text">
+          <h2>Mais de 30 Anos de Excelência em Turismo</h2>
+          <p>Fundada em 1994, a TravelPro é parceira de confiança de milhares de viajantes em busca de experiências inesquecíveis. Nosso compromisso com qualidade, segurança e satisfação do cliente nos tornou líderes no setor turístico.</p>
+
+          <div class="stats">
             <div>
-                <a href="">Entre em contato</a>
-                <a href="">Explorar Próximo destino</a>
+              <strong>5000+</strong>
+              <span>Clientes Satisfeitos</span>
             </div>
-        </article>
-
-        <article class="img_bus">
-            <img src="" alt="Frota">
-        </article>
-    </section>
-
-
-    <section>
-        <article>   
             <div>
-                <img src="" alt="Img_viagens">
+              <strong>50+</strong>
+              <span>Destinos</span>
             </div>
-        </article>
-
-        <article class="conteiner_txt">
-            <h3>Mais de 30 Anos de Excelência em Turismo</h3>
-            <p>Serviços profissionais de turismo com mais de 30 anos de experiência. Descubra destinos incríveis com nossa frota premium e orientação especializada.</p>
-        </article>
-            
-        <article class="conteiner_1000+">
-            <div>
-                <p>2000+</p>
-                <p>Clientes Satisfeito</p>
-            </div>
-
-            <div>
-                <p>300+</p>
-                <p>Destino</p>
-            </div>
-        </article>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <article>
-            <h3>Nossos Serviços Premium</h3>
-            <p>Soluções completas de turismo personalizadas para suas necessidades</p>
+    <!-- Serviços -->
+    <section id="servicos" class="servicos container">
+      <header class="section-header">
+        <h2>Nossos Serviços Premium</h2>
+        <p>Soluções completas de turismo personalizadas para suas necessidades</p>
+      </header>
+
+      <div class="cards-grid">
+        <article class="card">
+          <span class="material-symbols-outlined">directions_bus</span>
+          <h3>Brincadeiras em Grupos social</h3>
+          <p>Nosso serviço premium faz cada viagem única! Criamos atividades, brincadeiras e sorteios para deixar o clima leve e divertido, garantindo que todo mundo se conheça, se entrose e se sinta parte de um grupo especial do começo ao fim da viagem..</p>
         </article>
 
-        <div>
-            <span>Icon do google bus or jokes</span>
-            <p>Brincadeiras e sorteio de presentes</p>
-            <p>Viajar é mais do que conhecer lugares — é sobre viver momentos e fazer novas amizades. Em nossos passeios, realizamos brincadeiras interativas e sorteios de presentes para que todos se sintam parte da mesma aventura.</p>
-        </div>
+        <article class="card">
+          <span class="material-symbols-outlined">map</span>
+          <h3>Tours Guiados</h3>
+          <p>Guias locais especialistas para enriquecer sua experiência.</p>
+        </article>
 
-        <div>
-            <span>Icon do google map</span>
-            <p>Brincadeiras e sorteio de presentes</p>
-            <p>Guias locais especialistas para enriquecer sua experiência de viagem com conhecimento interno.</p>
-        </div>
+        <article class="card">
+          <span class="material-symbols-outlined">hotel</span>
+          <h3>Reservas de Hotéis</h3>
+          <p>Parcerias com hotéis premium para as melhores tarifas e conforto.</p>
+        </article>
 
-        <div>
-            <span>Icon do google hotel</span>
-            <p>Reservas de Hotéis</p>
-            <p>Parcerias com hotéis premium para as melhores tarifas e acomodações.</p>
-        </div>
+        <article class="card">
+          <span class="material-symbols-outlined">support_agent</span>
+          <h3>Suporte 24/7</h3>
+          <p>Atendimento ao cliente 24 horas de forma humanizada para assistência nas viagens.</p>
+        </article>
 
-        <div>
-            <span>Icon do google hotel</span>
-            <p>Suporte 24/7</p>
-            <p>Atendimento ao cliente 24 horas por dia para qualquer assistência durante suas viagens com atendimento humanizado e acolhedor</p>
-        </div>
+        <article class="card">
+          <span class="material-symbols-outlined">event</span>
+          <h3>Planejamento de Eventos</h3>
+          <p>Eventos corporativos e viagens personalizadas por demanda.</p>
+        </article>
+      </div>
     </section>
 
-    <section class="conteiner_img_half">
-        <img src="#" alt="bus">
-        <p>Onibus de Luxo</p>
-        <p>Ônibus premium de 45 lugares com ar condicionado, sistema de entretenimento e assentos reclináveis.</p>
+    <!-- Frota -->
+    <section id="frota" class="frota container">
+      <header class="section-header">
+        <h2>Nossa Frota Premium</h2>
+        <p>Veículos modernos e confortáveis para cada jornada</p>
+      </header>
+
+      <div class="frota-grid">
+        <article class="frota-card">
+          <img src="https://images.unsplash.com/photo-1558981285-6a2f1f1f6b7b?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=56c6f4c6a1d2e3f4a5b6c7d8e9f0a1b2" alt="Ônibus de luxo">
+          <h4>Ônibus de Luxo</h4>
+          <p>45 passageiros • Premium</p>
+        </article>
+      </div>
     </section>
 
-    <section class="slider">
-        <div class="sliders">
-            <!-- radios buttons -->
-             <input type="radio" name="radio-btn" id="radio1">
-             <input type="radio" name="radio-btn" id="radio2">
-             <input type="radio" name="radio-btn" id="radio3">
-             <input type="radio" name="radio-btn" id="radio4">
+    <!-- Depoimentos (slider) -->
+    
 
-             <!-- slider imagens -->
-              <div class="slide first">
-                <img src="https://img.freepik.com/fotos-premium/uma-foto-de-uma-praia-com-pedras-e-o-ceu-ao-fundo_786255-6078.jpg" alt="imagem 1">
-              </div>
-              <div class="slide">
-                <img src="https://img.freepik.com/fotos-gratis/paisagem-de-praia-pedregosa_23-2151716350.jpg?semt=ais_incoming&w=740&q=80" alt="imagem 2">
-              </div>
-              <div class="slide">
-                <img src="https://img.freepik.com/fotos-gratis/vista-de-praia-e-paisagem-natural-de-tirar-o-folego_23-2151682933.jpg?semt=ais_hybrid&w=740&q=80" alt="imagem 3">
-              </div>
-              <div class="slide">
-                <img src="https://img.freepik.com/fotos-gratis/vista-de-praia-e-paisagem-natural-de-tirar-o-folego_23-2151683029.jpg?semt=ais_hybrid&w=740" alt="imagem 4">
-              </div>
+    <!-- Contato -->
+    <section class="contato" id="contato">
+      <div class="contato-conteudo container">
+        <div class="info-contato">
+          <h2>Entre em Contato</h2>
+          <p>Pronto para planejar sua próxima aventura com a familia virgem tour? Entre em contato conosco hoje para um orçamento personalizado e conselhos de viagem especializados.</p>
 
-              <!-- navigation auto -->
-              <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
+          <ul>
+            <li>
+              <span class="material-symbols-outlined">call</span>
+              <div>
+                <strong>Telefone</strong>
+                <p>(71)98849-4699</p>
               </div>
-
+            </li>
+            <li>
+              <span class="material-symbols-outlined">mail</span>
+              <div>
+                <strong>Email</strong>
+                <p>virgemtour@gmail.com</p>
+              </div>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">location_on</span>
+              <div>
+                <strong>Endereço</strong>
+                <p>Rua Professor Leopoldo Campos Monteiro, nº 01 - São Caetano, Salvador - BA</p>
+              </div>
+            </li>
+          </ul>
         </div>
+        <!-- formulario já validados, lucas gay-->
+        <form class="form-contato" action="#" method="post" aria-label="Formulário de contato">
+          <div class="form-row">
+            <label class="sr-only" for="primeiro-nome">Primeiro nome</label>
+            <input id="primeiro-nome" type="text" name="primeiro-nome" placeholder="Primeiro Nome" required />
 
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
+            <label class="sr-only" for="ultimo-nome">Último nome</label>
+            <input id="ultimo-nome" type="text" name="ultimo-nome" placeholder="Último Nome" required />
+          </div>
 
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="Endereço de Email" required />
+
+          <label class="sr-only" for="telefone">Telefone</label>
+          <input id="telefone" type="tel" name="telefone" placeholder="Número de Telefone" required />
+
+          <label class="sr-only" for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos sobre seus planos de viagem e qual seu destino preferido..."></textarea>
+
+          <button class="btn primary" type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
     </section>
+  </main>
 
-    <script src="script.js"></script>
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <div class="rodape-conteudo container">
+      <div class="sobre">
+        <h3>TravelPro Turismo</h3>
+        <p>Seu parceiro confiável para experiências memoráveis de viagem.</p>
+        <div class="social">
+          <a href="#" aria-label="Twitter"><span class="material-symbols-outlined">share</span></a>
+          <a href="#" aria-label="Instagram"><span class="material-symbols-outlined">photo_camera</span></a>
+        </div>
+      </div>
+
+      <nav class="links-rapidos">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#frota">Nossa Frota</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+      </nav>
+
+      <nav class="servicos-footer">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#">Transporte de Grupos</a></li>
+          <li><a href="#">Tours Guiados</a></li>
+          <li><a href="#">Reservas de Hotéis</a></li>
+          <li><a href="#">Planejamento de Eventos</a></li>
+        </ul>
+      </nav>
+
+      <address class="info-contato-footer">
+        <h4>Informações de Contato</h4>
+        <ul>
+          <li><span class="material-symbols-outlined">call</span>(71)98849-4699</li>
+          <li><span class="material-symbols-outlined">mail</span> virgemtour@gmail.com</li>
+          <li><span class="material-symbols-outlined">location_on</span> Rua Professor Leopoldo Campos Monteiro, nº 01 - São Caetano, Salvador - BA</li>
+        </ul>
+      </address>
+    </div>
+
+    <div class="rodape-direitos">
+      <p>© 2024 TravelPro Turismo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
+

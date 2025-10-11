@@ -1,9 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
 }
 
-.slider{
-    margin: 0 auto;
-    width: 800px;
-}
